@@ -52,12 +52,7 @@ class MapJobManagement extends AbstractJobManagement {
 
     @Override
     boolean isMinimumPluginVersionInstalled(String pluginShortName, String version) {
-        VersionNumber actualVersion = getPluginVersion(pluginShortName)
-        if (actualVersion == null) {
-            return false
-        }
-        VersionNumber minimumVersion = new VersionNumber(version)
-        return !actualVersion.isOlderThan(minimumVersion)
+      return true;
     }
 
     @Override
