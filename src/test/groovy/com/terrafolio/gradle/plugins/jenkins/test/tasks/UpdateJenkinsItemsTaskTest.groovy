@@ -35,7 +35,7 @@ class UpdateJenkinsItemsTaskTest extends JenkinsPluginTaskSpec {
                         <disabled>false</disabled>
                         <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
                         <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-                        <triggers class='vector'></triggers>
+                        <triggers/>
                         <concurrentBuild>false</concurrentBuild>
                         <builders></builders>
                         <publishers></publishers>
@@ -74,7 +74,7 @@ class UpdateJenkinsItemsTaskTest extends JenkinsPluginTaskSpec {
                         <disabled>false</disabled>
                         <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
                         <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-                        <triggers class='vector'></triggers>
+                        <triggers/>
                         <concurrentBuild>false</concurrentBuild>
                         <builders></builders>
                         <publishers></publishers>
@@ -146,7 +146,7 @@ class UpdateJenkinsItemsTaskTest extends JenkinsPluginTaskSpec {
                         <disabled>false</disabled>
                         <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
                         <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-                        <triggers class='vector'></triggers>
+                        <triggers/>
                         <concurrentBuild>false</concurrentBuild>
                         <builders></builders>
                         <publishers></publishers>
@@ -184,7 +184,7 @@ class UpdateJenkinsItemsTaskTest extends JenkinsPluginTaskSpec {
                         <disabled>false</disabled>
                         <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
                         <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-                        <triggers class='vector'></triggers>
+                        <triggers/>
                         <concurrentBuild>false</concurrentBuild>
                         <builders></builders>
                         <publishers></publishers>
@@ -286,7 +286,7 @@ class UpdateJenkinsItemsTaskTest extends JenkinsPluginTaskSpec {
                         <disabled>false</disabled>
                         <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
                         <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-                        <triggers class='vector'></triggers>
+                        <triggers/>
                         <concurrentBuild>false</concurrentBuild>
                         <builders></builders>
                         <publishers></publishers>
@@ -312,7 +312,7 @@ class UpdateJenkinsItemsTaskTest extends JenkinsPluginTaskSpec {
                 <disabled>false</disabled>
                 <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
                 <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-                <triggers class='vector'></triggers>
+                <triggers/>
                 <concurrentBuild>false</concurrentBuild>
                 <builders></builders>
                 <publishers></publishers>
@@ -372,7 +372,7 @@ class UpdateJenkinsItemsTaskTest extends JenkinsPluginTaskSpec {
                         <disabled>false</disabled>
                         <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
                         <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-                        <triggers class='vector'></triggers>
+                        <triggers/>
                         <concurrentBuild>false</concurrentBuild>
                         <builders></builders>
                         <publishers></publishers>

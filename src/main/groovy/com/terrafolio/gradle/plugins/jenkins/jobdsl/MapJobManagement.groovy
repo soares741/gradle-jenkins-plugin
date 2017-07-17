@@ -26,6 +26,11 @@ class MapJobManagement extends AbstractJobManagement {
     }
 
     @Override
+    boolean isMinimumCoreVersion(String pkg) {
+        return false;
+    }
+
+    @Override
     String getConfig(String jobName) throws JobConfigurationNotFoundException {
         return map.get(jobName)
     }

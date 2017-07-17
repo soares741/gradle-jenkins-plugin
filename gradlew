@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+JenkinsConfiguration#!/usr/bin/env bash
 
 ##############################################################################
 ##

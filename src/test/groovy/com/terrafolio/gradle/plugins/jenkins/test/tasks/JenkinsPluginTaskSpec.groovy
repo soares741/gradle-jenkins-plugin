@@ -25,7 +25,7 @@ abstract class JenkinsPluginTaskSpec extends ProjectSpec {
             <disabled>false</disabled>
             <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
             <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-            <triggers class='vector'></triggers>
+            <triggers/>
             <concurrentBuild>false</concurrentBuild>
             <builders></builders>
             <publishers></publishers>

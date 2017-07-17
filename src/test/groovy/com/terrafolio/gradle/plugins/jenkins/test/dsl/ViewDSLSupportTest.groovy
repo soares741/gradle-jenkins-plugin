@@ -98,7 +98,7 @@ class ViewDSLSupportTest extends TempDirSpec {
     def "evaluateDSL from closure creates correct XML" () {
         setup:
         Closure dsl = {
-            name = "test"
+            // name = "test"
         }
         support = new TestViewDSLSupport(new MapJobManagement(new HashMap<String, String>()))
         XMLUnit.setIgnoreWhitespace(true)
