@@ -164,26 +164,6 @@ class JenkinsJobTest extends ProjectSpec {
         new Diff(JobFixtures.MULTIJOB_DSL_JOB_XML, project.jenkins.jobs.findByName('test').definition.xml).similar()
     }
 
-    def "configure with dsl closure generates correct buildflow xml" () {
-        setup:
-        XMLUnit.setIgnoreWhitespace(true)
-
-        when:
-        project.jenkins {
-            jobs {
-                test {
-                    type 'BuildFlow'
-                    dsl {
-                        name = "Test Job"
-                    }
-                }
-            }
-        }
-
-        then:
-        new Diff(JobFixtures.BUILDFLOW_DSL_JOB_XML, project.jenkins.jobs.findByName('test').definition.xml).similar()
-    }
-
     def "configure with dsl closure throws exception on bad type" () {
         when:
         project.jenkins {

@@ -72,7 +72,6 @@ class JobDSLSupportTest extends TempDirSpec {
         'Freeform'  | JobFixtures.FREEFORM_DSL_JOB_XML
         'Maven'     | JobFixtures.MAVEN_DSL_JOB_XML
         'Multijob'  | JobFixtures.MULTIJOB_DSL_JOB_XML
-        'Buildflow' | JobFixtures.BUILDFLOW_DSL_JOB_XML
     }
 
     class TestDSLSupport implements JobDSLSupport {

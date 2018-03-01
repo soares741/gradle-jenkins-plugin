@@ -8,7 +8,6 @@ enum DSLJobType {
     Freeform(FreeStyleJob),
     Maven(MavenJob),
     Multijob(MultiJob),
-    BuildFlow(BuildFlowJob),
     Workflow(WorkflowJob),
     Matrix(MatrixJob)
 

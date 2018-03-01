@@ -65,24 +65,4 @@ class JobFixtures {
               <buildWrappers/>
             </com.tikal.jenkins.plugins.multijob.MultiJobProject>
     """
-    protected static final String BUILDFLOW_DSL_JOB_XML = """
-            <com.cloudbees.plugins.flow.BuildFlow>
-              <actions/>
-              <description></description>
-              <keepDependencies>false</keepDependencies>
-              <properties/>
-              <scm class="hudson.scm.NullSCM"/>
-              <canRoam>true</canRoam>
-              <disabled>false</disabled>
-              <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
-              <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-              <triggers/>
-              <concurrentBuild>false</concurrentBuild>
-              <builders/>
-              <publishers/>
-              <buildWrappers/>
-              <icon/>
-              <dsl></dsl>
-            </com.cloudbees.plugins.flow.BuildFlow>
-    """
 }
