@@ -50,7 +50,7 @@ dependencies {
 
     compile('org.jenkins-ci:version-number:1.1')
 
-    compile('org.codehaus.groovy.modules.http-builder:http-builder:0.7.2') {
+    compile('org.codehaus.groovy.modules.http-builder:http-builder:0.7.1') {
         exclude(module: 'groovy')
     }
 
