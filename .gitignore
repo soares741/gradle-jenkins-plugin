@@ -12,3 +12,4 @@ bin
 .idea
 *.swp
 out
+.java-version

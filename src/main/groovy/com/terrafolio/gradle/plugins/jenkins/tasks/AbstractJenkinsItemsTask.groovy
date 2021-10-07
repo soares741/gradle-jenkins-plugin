@@ -5,14 +5,19 @@ import com.terrafolio.gradle.plugins.jenkins.dsl.JenkinsConfigurationException
 import com.terrafolio.gradle.plugins.jenkins.dsl.JenkinsServerDefinition
 import com.terrafolio.gradle.plugins.jenkins.service.JenkinsRESTServiceFactory
 import com.terrafolio.gradle.plugins.jenkins.service.JenkinsServiceFactory
-import org.gradle.api.DefaultTask
+import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.TaskAction
 
 abstract class AbstractJenkinsItemsTask extends AbstractJenkinsTask {
+    @Internal
     def needsCredentials = true
+    @Internal
     def JenkinsServiceFactory serviceFactory = new JenkinsRESTServiceFactory()
+    @Internal
     def items = []
+    @Internal
     def itemClosures = []
+    @Internal
     def servers
 
     AbstractJenkinsItemsTask() {
@@ -46,6 +51,7 @@ abstract class AbstractJenkinsItemsTask extends AbstractJenkinsTask {
         return serverDefinitions
     }
 
+    @Internal
     def List<JenkinsConfigurable> getAllItems() {
         def items = items + itemClosures.collect { it.call() }.flatten()
 

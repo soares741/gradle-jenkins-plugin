@@ -2,9 +2,12 @@ package com.terrafolio.gradle.plugins.jenkins.tasks
 
 import com.terrafolio.gradle.plugins.jenkins.dsl.JenkinsConfigurable
 import com.terrafolio.gradle.plugins.jenkins.service.BuildDirService
+import org.gradle.api.tasks.Internal
 
 class DumpJenkinsItemsTask extends AbstractDumpJenkinsItemsTask {
+    @Internal
     def prettyPrint = true
+    @Internal
     def prettyPrintPreserveWhitespace = false;
 
     public DumpJenkinsItemsTask() {

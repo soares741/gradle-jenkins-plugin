@@ -7,8 +7,10 @@ import org.custommonkey.xmlunit.DetailedDiff
 import org.custommonkey.xmlunit.Diff
 import org.custommonkey.xmlunit.Difference
 import org.custommonkey.xmlunit.XMLUnit
+import org.gradle.api.tasks.Internal
 
 class ValidateJenkinsItemsTask extends AbstractJenkinsItemsTask {
+    @Internal
     def failOnDifference = true
 
     ValidateJenkinsItemsTask() {
